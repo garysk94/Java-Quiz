@@ -1,0 +1,170 @@
+html {
+	font-size: 62.5%;
+}
+
+nav {
+	margin: 2rem;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	height: 4rem;
+	padding: 1rem;
+}
+
+li {
+	flex: 1 0 50%;
+	font-size: 3rem;
+}
+
+li a {
+	text-decoration: none;
+}
+
+section {
+	justify-content: center;
+	text-align: center;
+}
+
+.intro h1 {
+	margin-top: 2rem;
+	font-size: 4rem;
+}
+
+section p {
+	width: 50rem;
+	font-size: 2rem;
+	margin: 1rem auto;
+}
+
+button {
+	padding: 3rem;
+	font-size: 2rem;
+	border-radius: 3rem;
+	width: 20rem;
+	height: 4rem;
+	margin: 1rem;
+	padding: 0px;
+	text-align: center;
+}
+button:hover {
+	background-color: whitesmoke;
+	border-color: blue;
+}
+
+h2 {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.high-score {
+	text-align: justify;
+	display:inline;
+}
+
+.timer {
+	text-align: end;
+	display: block;
+
+}
+
+.intro {
+	display: block;
+}
+
+.quiz {
+	display: none;
+	margin: 0 auto;
+	max-width: 40rem;
+}
+
+.startGame {
+	text-align: center;
+}
+
+
+.sectionEl {
+	display: block;
+}
+
+.h1El {
+	margin: 0 auto;
+	font-size: 2.5rem;
+	text-align: center;
+}
+.h2El {
+	margin: 1rem 0;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.labelEl {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.inputEl {
+	padding: .6rem;
+}
+
+.sectionEl .buttonEl {
+	padding: 0;
+	font-size: 1.7rem;
+	width: 5rem;
+	height: 3rem;
+	text-align: center;
+	margin-left: 1rem;
+}
+
+.sectionEl .buttonEl {
+	padding: 0;
+	font-size: 1.7rem;
+	width: 5rem;
+	height: 3rem;
+	text-align: center;
+	margin-left: 1rem;
+}
+
+.wrong {
+	width: 20rem;
+	margin: 1rem auto;
+	font-size: 2.2rem;
+	color: red;
+}
+
+.spage {
+	font-size: 40px;
+	text-decoration: wavy;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.highScore {
+	color: black;
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+
+.nameScore {
+	font-size: 25px;
+	padding: 50px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+}
+
+
+.scList {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+}
+
+.scList li {
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+  }
